@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Navigation Menu</title>
+    <style>
+        .header {
+            background-color: #333;
+            color: white;
+            padding: 15px;
+            text-align: center;
+            display: block;
+            font-size: 22px;
+        }
+
+        .menu-inline a {
+            display: inline;
+            margin-right: 20px;
+            color: #333;
+            text-decoration: none;
+            font-size: 18px;
+        }
+
+        .menu-inline-block a {
+            display: inline-block;
+            margin: 10px;
+            padding: 8px 14px;
+            background: #f0f0f0;
+            border-radius: 5px;
+            color: black;
+            text-decoration: none;
+            font-size: 17px;
+        }
+
+        .menu-float a {
+            float: left;
+            padding: 10px 15px;
+            background: #ddd;
+            margin-right: 10px;
+            text-decoration: none;
+            color: black;
+            border-radius: 4px;
+            font-size: 16px;
+        }
+
+        .clear {
+            clear: both;
+        }
+
+        a:hover {
+            background: #007bff;
+            color: white !important;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="header">Navigation Menu Example</div>
+
+    <h2>1. Inline Menu</h2>
+    <div class="menu-inline">
+        <a href="#">Home</a>
+        <a href="#">Services</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+    </div>
+
+    <h2>2. Inline-Block Menu</h2>
+    <div class="menu-inline-block">
+        <a href="#">Home</a>
+        <a href="#">Products</a>
+        <a href="#">Gallery</a>
+        <a href="#">Contact</a>
+    </div>
+
+    <h2>3. Float Menu</h2>
+    <div class="menu-float">
+        <a href="#">Home</a>
+        <a href="#">Blog</a>
+        <a href="#">Pricing</a>
+        <a href="#">Support</a>
+    </div>
+
+    <div class="clear"></div>
+
+</body>
+</html>
