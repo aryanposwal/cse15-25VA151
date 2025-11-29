@@ -1,82 +1,179 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
-    <title>Student Profile Card</title>
-    <style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+     <style>
+
         body {
-            margin: 0;
-            padding: 0;
-            font-family: Arial, sans-serif;
-            background: #e9e9e9;
-            height: 100vh;
+            display: flex;
+            justify-content: center;
+
+        }
+
+        main {
+            border: solid black 1px;
+            background-color: black;
+            width: 1000px;
+            height: fit-content;
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+            border: solid 5px black;
+        }
+
+        #box1 {
+            height: 100px;
+            width: auto;
+            background-color: blue;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 5px;
+        }
+
+        #box2 {
+            height: 50px;
+            width: auto;
+            background-color: blue;
             display: flex;
             justify-content: center;
             align-items: center;
         }
 
-        .container {
-            width: 350px;
-            background: white;
-            border-radius: 12px;
-            box-shadow: 0 0 12px rgba(0,0,0,0.2);
-            padding: 20px;
+        #div1 {
+            width: 600px;
+            height: 600px;
             display: flex;
             flex-direction: column;
             justify-content: center;
+            gap: 10px;
+            margin: 0;
+        }
+
+        #box4 {
+            height: 50px;
+            background-color: rgb(223, 71, 71);
+            align-items: center;
+            display: flex;
+            justify-content: center;
+
+        }
+
+        #box5 {
+            height: 250px;
+            background-color: bisque;
+            align-items: center;
+            display: flex;
+            justify-content: center;
+        }
+
+        #box3 {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
             align-items: center;
         }
 
-        .photo {
-            width: 130px;
-            height: 130px;
-            border-radius: 50%;
-            background: #cfcfcf;
-            margin-bottom: 15px;
-        }
-
-        .name {
-            font-size: 22px;
-            font-weight: bold;
-            margin-bottom: 5px;
-        }
-
-        .course {
-            font-size: 16px;
-            color: #555;
-            margin-bottom: 15px;
-        }
-
-        .details {
-            width: 100%;
+        #div2 {
+            width: 400px;
+            height: 600px;
             display: flex;
             flex-direction: column;
             justify-content: center;
             gap: 10px;
         }
 
-        .item {
-            background: #f4f4f4;
-            padding: 10px;
-            border-radius: 6px;
-            font-size: 15px;
+        #box6 {
+            height: 300px;
+            background-color: lightgreen;
+            align-items: center;
+            display: flex;
+            justify-content: center;
         }
-    </style>
+
+        #box7 {
+            height: 300px;
+            background-color: lightgreen;
+            align-items: center;
+            display: flex;
+            justify-content: center;
+        }
+
+        #div3 {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            gap: 10px;
+        }
+
+        #box8 {
+            width: 300px;
+            height: 280px;
+            align-items: center;
+            background-color: bisque;
+            display: flex;
+            justify-content: center;
+        }
+
+        #box9 {
+            width: 300px;
+            height: 280px;
+            align-items: center;
+            background-color: bisque;
+            display: flex;
+            justify-content: center;
+        }
+
+        footer {
+            height: 50px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: white;
+        }
+     </style>
 </head>
-
 <body>
-
-    <div class="container">
-        <div class="photo"><img src="photo.jpg" alt="aryan's photo" style="width:130px; height: 130px; border-radius: 50%;"></div>
-
-        <div class="name">aryan</div>
-        <div class="course">B.Tech (CSE) - 1st Year</div>
-
-        <div class="details">
-            <div class="item">Email: aryanposwal819@gmail.com</div>
-            <div class="item">Phone: 9711525257</div>
-            <div class="item">College: ABES ENGINEERING COLLEGE</div>
+    <main>
+        <header id="box1">
+            <h2>#Header</h2>
+        </header>
+        <div id="box2">
+            <h2>New Global</h2>
         </div>
-    </div>
+        <div id="box3">
+            <div id="div1">
+                <div id="box4">
+                    <h2>#Page Title</h2>
+                </div>
+                <div id="box5">
+                    <h2>#Content 1</h2>
+                </div>
+                <div id="div3">
+                    <div id="box8">
+                        <h2>#Content 2</h2>
+                    </div>
+                    <div id="box9">
+                        <h2>#content 3</h2>
+                    </div>
+                </div>
+            </div>
+            <div id="div2">
+                <div id="box6">
+                    <h2>#Nav Local</h2>
+                </div>
+                <div id="box7">
+                    <h2> #side bar</h2>
+                </div>
+            </div>
 
+        </div>
+        <footer>
+            <h2>#Footer</h2>
+        </footer>
+    </main>
 </body>
 </html>
